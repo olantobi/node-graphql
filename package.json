@@ -1,0 +1,28 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel-watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olantobi/node-graphql.git"
+  },
+  "author": "Tobi Olanrewaju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olantobi/node-graphql/issues"
+  },
+  "homepage": "https://github.com/olantobi/node-graphql#readme",
+  "dependencies": {
+    "babel-watch": "^7.0.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
